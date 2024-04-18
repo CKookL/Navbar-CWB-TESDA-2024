@@ -6,7 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body, .custom-container a{
