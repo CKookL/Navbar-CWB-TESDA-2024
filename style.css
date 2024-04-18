@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+body, .custom-container a{
+    background-color: #F6F6F6;
+    color: black;
+    font-weight: 500;
+}
+body.change .col.s12.m6.l4.xl4{
+    background-color: #2c2c2c;
+}
+
+
+.nav-wrapper a{
+
+    font-weight: 500;
+    color: black;
+}
+
+.custom-container a{
+    text-decoration: underline rgba(0, 0, 0, 0.47);
+    margin: 20px;
+}
+
+.col.s12.m6.l4.xl4{
+    padding:  10px 40px 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.fa-brands.fa-css3-alt{
+    color: #4f79db;
+}
+.fa-brands.fa-html5{
+    color: orangered;
+}
+.fa-brands.fa-js{
+    color: yellow;
+}
+nav{
+    padding: 0 30px;
+    background-color: #ffffff;
+}
+
+.fa-solid.fa-caret-down{
+    color: #77B0AA;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.tabs.tabs-transparent .tab a {
+    color: rgba(0, 0, 0, 0.301);
+}
+.tabs.tabs-transparent .tab a.active {
+    color: rgba(0, 0, 0, 0.301);
+}
+.tabs.tabs-transparent .tab.disabled a{
+    color: rgba(0, 0, 0, 0.301);
+}
+.tabs.tabs-transparent .tab.disabled a:hover {
+    color: rgba(0, 0, 0, 0.301);
+}
+.tabs.tabs-transparent .tab a:hover{
+    color: black;
+}
+nav ul li a:hover{
+    background-color: #77B0AA;
+}
+
+.nav-wrapper a.active-text{
+    color: white;
+}
+.text4{
+    color: black;
+}
+
+.active-text a{
+    color: white;
+}
+
+.changeNav{
+    background-color: black;
+}
+.changeNav .nav-wrapper a, .sidenav.changeNav a{
+    color: white;
+}
+.changeNav ul li.active {
+    background-color: #77B0AA;
+}
+
+body.change {
+    background-color: rgb(28, 28, 28);
+}
+
+.change .custom-container a{
+    color: white;
+    text-decoration: underline white;
+}
+
+body.change .teal.lighten-5>a{
+    color:#2c2c2c;
+    text-decoration: underline #2c2c2c;
+}
+
+
+.theme{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.theme:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+span.theme.btn-floating.halfway-fab.waves-effect.waves-light.change i{
+    color: black;
+    background-color: white;
+}
+
+
+.center.hide-on-med-and-down.brand-logo li:hover{
+    background-color: #77B0AA;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.436);
+    width: 40px;
+    height: 40px;
+    transition: 0.1s ease-in-out;
+    background-color: black;
+    transform: translateY(10px);   
+}
+span:hover{
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    transform: translateY(14px);   
+    box-shadow: none;
+    border: 1px rgb(255, 255, 255) solid;
+}
+span.change{
+    color: black;
+    background-color: #F6F6F6;
+    box-shadow: 0 4px 4px rgba(255, 255, 255, 0.436);
+}
+span.change:hover{
+    transform: translateY(11px);   
+    box-shadow: none;
+}
+
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media only screen and (min-width: 601px){
+.row .col.m6 {
+    width: 40%;
+    margin-left: 0;
+}
+}
+@media only screen and (min-width: 993px) {
+    .row .col.l4 {
+        width: 29.3333333333%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .row .col.xl1 {
+        width:29.3333333333%;
+        margin-left: 0;
+    }
+}
